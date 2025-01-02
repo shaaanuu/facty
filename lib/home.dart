@@ -11,9 +11,9 @@ class Home extends StatelessWidget {
     ValueNotifier<String> valueNotifier = ValueNotifier(fact);
 
     return Scaffold(
-      backgroundColor: Color(0xFFD5D8DC),
+      backgroundColor: const Color(0xFFD5D8DC),
       appBar: AppBar(
-        elevation: 1,
+        elevation: 2,
         backgroundColor: Colors.transparent,
         centerTitle: true,
         title: const Text(
@@ -21,6 +21,8 @@ class Home extends StatelessWidget {
           style: TextStyle(
             fontSize: 20,
             color: Color(0xFF2E4053),
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1.5,
           ),
         ),
       ),
@@ -32,9 +34,10 @@ class Home extends StatelessWidget {
             ValueListenableBuilder(
               valueListenable: valueNotifier,
               builder: (context, String value, child) => Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(10),
                 child: Text(
                   valueNotifier.value,
+                  textAlign: TextAlign.center,
                   style: const TextStyle(
                     color: Color(0xFF2E4053),
                     fontSize: 20,
