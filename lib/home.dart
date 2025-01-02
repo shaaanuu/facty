@@ -16,10 +16,8 @@ class Home extends StatelessWidget {
         elevation: 0,
         backgroundColor: Colors.transparent,
         title: const Text(
-          'Random Facts',
-          style: TextStyle(
-            fontSize: 20,
-          ),
+          'Facty',
+          style: TextStyle(fontSize: 20),
         ),
       ),
       body: SafeArea(
