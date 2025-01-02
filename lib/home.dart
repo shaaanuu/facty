@@ -15,13 +15,15 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
+        centerTitle: true,
         title: const Text(
           'Facty',
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 20, color: Colors.white),
         ),
       ),
-      body: SafeArea(
-        child: Center(
+      body: Scaffold(
+        backgroundColor: Colors.grey[900],
+        body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
