@@ -3,13 +3,11 @@ import 'package:flutter/material.dart';
 import 'apis.dart';
 
 class Home extends StatelessWidget {
-  Home({Key? key}) : super(key: key);
-
-  late String fact;
+  const Home({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    fact = 'facts';
+    String fact = 'facts';
     ValueNotifier<String> valueNotifier = ValueNotifier(fact);
 
     return Scaffold(
