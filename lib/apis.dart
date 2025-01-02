@@ -11,5 +11,3 @@ Future<Fact> getFact() async {
   final data = Fact.fromJson(bodyAsJSON);
   return data;
 }
-
-// {"id":"85f89b61-7e0c-4aa1-944e-dbb03b847d30","text":"China has more English speakers than the United States.","source":"djtech.net","source_url":"http:\/\/www.djtech.net\/humor\/useless_facts.htm","language":"en","permalink":"https:\/\/uselessfacts.jsph.pl\/85f89b61-7e0c-4aa1-944e-dbb03b847d30"}
