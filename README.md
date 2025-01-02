@@ -1,16 +1,34 @@
-# random_facts
+# Facty 🌀
 
-A new Flutter project.
+**"The universe is complicated. Facts? Not so much."**
 
-## Getting Started
+Facty is your humble guide to the wonders of the world—one fact at a time. No fluff, no distractions. Just pure, unadulterated trivia, dished out like a cosmic wink.
 
-This project is a starting point for a Flutter application.
+## What Does It Do?
 
-A few resources to get you started if this is your first Flutter project:
+Facty is simple:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- You open it.
+- It gives you a fact.
+- You wonder, "How did I survive without this?"
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Why It Exists
+
+Because sometimes life needs a pause, a chuckle, or a "Huh, that’s cool." And because coding is fun.
+
+## Key Features
+
+- **Facts in Your Face**: Smack dab in the middle of the screen, where they belong.
+- **Minimalist Glory**: No menus, no clutter, no settings—because who has time for that?
+- **Updated with Love**: Dust blown off, code polished, name fancied up.
+
+## Instructions
+
+1. Open Facty.
+2. Absorb knowledge.
+3. Question the universe.
+4. Smile.
+
+## Warning
+
+May cause random outbursts of "Did you know…?" among friends, family, and strangers. Use responsibly.
