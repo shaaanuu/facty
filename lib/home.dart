@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String fact = 'facts';
+    String fact = 'Ready to blow your mind?';
     ValueNotifier<String> valueNotifier = ValueNotifier(fact);
 
     return Scaffold(
@@ -55,7 +55,7 @@ class Home extends StatelessWidget {
                 backgroundColor: const Color(0xFFAAB7B8),
               ),
               child: const Text(
-                'Click Me',
+                'Hit me with a fact!',
                 style: TextStyle(
                   color: Colors.black,
                 ),
