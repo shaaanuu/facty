@@ -1,7 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:random_facts/fact/fact.resp.dart';
+
+import 'fact/fact.resp.dart';
 
 Future<Fact> getFact() async {
   final response = await http

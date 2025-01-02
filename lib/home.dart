@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:random_facts/apis.dart';
+
+import 'apis.dart';
 
 class Home extends StatelessWidget {
   Home({Key? key}) : super(key: key);

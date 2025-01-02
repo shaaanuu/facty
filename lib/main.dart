@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:random_facts/home.dart';
+
+import 'home.dart';
 
 void main() {
   runApp(MyApp());
